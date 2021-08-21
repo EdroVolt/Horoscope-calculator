@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Horoscope calculator</h1>
+        <label for="month">
+            birth month:
+            <input type="month" name="month" id="month" onchange="setMonth(event);">
+        </label>
+        <label for="month">
+            birth day:
+            <select id="day" onchange="setDay(event)">
+            </select>
+        </label>
+        <button id="submit" onclick="checkHoroscope()">calculate</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

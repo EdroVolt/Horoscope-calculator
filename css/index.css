@@ -1,0 +1,72 @@
+body {
+  /* background-color: rgba(32, 33, 36, 1); */
+  background: url("../img/background.jpg");
+  background-size: cover;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 50%;
+  margin: auto;
+  margin-top: 40vh;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  border: none;
+  background-color: antiquewhite;
+  padding: 5px 5px;
+  width: -webkit-fill-available;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+select {
+  border: none;
+  background-color: antiquewhite;
+  width: -webkit-fill-available;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin: 20px;
+}
+
+button {
+  padding: 5px 35px;
+  margin: 5px auto;
+  color: white;
+  background-color: #1a208af7;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+button:hover {
+  background-color: #3239b9f7;
+}
+
+.access-denied {
+  color: white;
+}
