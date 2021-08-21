@@ -59,7 +59,7 @@ button {
   background-color: #1a208af7;
   border: none;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 1.1em;
   display: block;
 }
 
@@ -69,4 +69,16 @@ button:hover {
 
 .access-denied {
   color: white;
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
 }
